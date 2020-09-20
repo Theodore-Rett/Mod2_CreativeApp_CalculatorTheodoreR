@@ -42,25 +42,24 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8P-Pm-WX4">
                                                 <rect key="frame" x="0.0" y="0.0" width="369" height="192.5"/>
-                                                <color key="backgroundColor" red="0.070972509682178497" green="0.10564038902521133" blue="0.25575339794158936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="47"/>
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ck-DZ-YQL"/>
-                                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9V-wv-L50"/>
+                                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="16n-Q8-tfi"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngw-D7-qz4">
                                                 <rect key="frame" x="379" y="0.0" width="369" height="192.5"/>
-                                                <color key="backgroundColor" red="0.070972509680000004" green="0.105640389" blue="0.25575339790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="47"/>
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qap-fj-614"/>
+                                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RMz-A8-BZ4"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -70,26 +69,24 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9F-Dm-E6w">
                                                 <rect key="frame" x="0.0" y="0.0" width="369" height="193"/>
-                                                <color key="backgroundColor" red="0.070972509680000004" green="0.105640389" blue="0.25575339790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="47"/>
                                                 <state key="normal" title="*">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KPK-Xi-O1C"/>
-                                                    <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RJz-el-hJS"/>
+                                                    <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zXn-JI-4ji"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLR-Nl-SyT">
                                                 <rect key="frame" x="379" y="0.0" width="369" height="193"/>
-                                                <color key="backgroundColor" red="0.070972509680000004" green="0.105640389" blue="0.25575339790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="47"/>
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJa-10-FZg"/>
-                                                    <action selector="multiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KeB-lv-cFv"/>
+                                                    <action selector="division:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eKG-KE-3gJ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -99,33 +96,31 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqj-dG-0N1">
                                                 <rect key="frame" x="0.0" y="0.0" width="369" height="192.5"/>
-                                                <color key="backgroundColor" red="0.070972509682178497" green="0.10564038902521133" blue="0.25575339794158936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="25"/>
                                                 <state key="normal" title="Area of Rectangle">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="areaOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eed-vm-cH6"/>
-                                                    <action selector="perimiterOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l89-3Z-Mhu"/>
+                                                    <action selector="areaOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jni-wp-Ia5"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RY-QG-gOz">
                                                 <rect key="frame" x="379" y="0.0" width="369" height="192.5"/>
-                                                <color key="backgroundColor" red="0.070972509682178497" green="0.10564038902521133" blue="0.25575339794158936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.28028225898742676" green="0.0645185187458992" blue="0.069838955998420715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="25"/>
                                                 <state key="normal" title="Perimiter of Rectangle">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="areaOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yxY-vd-wzj"/>
-                                                    <action selector="perimiterOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0kC-aS-CJ8"/>
+                                                    <action selector="perimiterOfRec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ljh-2k-amV"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="034-47-R45">
                                         <rect key="frame" x="0.0" y="811" width="748" height="193"/>
-                                        <color key="backgroundColor" red="0.070972509682178497" green="0.10564038902521133" blue="0.25575339794158936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.072481758892536163" green="0.27523744106292725" blue="0.22731482982635498" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -146,8 +141,6 @@
                         <outlet property="ansLabel" destination="034-47-R45" id="9vm-51-hdY"/>
                         <outlet property="num1TextField" destination="Uht-pf-4Li" id="DkB-hu-SZ6"/>
                         <outlet property="num2TextField" destination="e7w-gj-deS" id="OZo-TH-Ksy"/>
-                        <outlet property="perimiterOfRec" destination="Yqj-dG-0N1" id="pvE-wa-qOG"/>
-                        <outlet property="subtraction" destination="k8P-Pm-WX4" id="r6y-1e-E4Z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

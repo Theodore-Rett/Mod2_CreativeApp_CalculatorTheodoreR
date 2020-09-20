@@ -36,8 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         num2TextField.resignFirstResponder()
     }
     
-    
-    @IBAction func subtraction(_ sender: Any) {
+    @IBAction func subtraction(_ sender: UIButton) {
         let num1 = Double(num1TextField.text!)!
         let num2 = Double(num2TextField.text!)!
         
@@ -49,7 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         num2TextField.resignFirstResponder()
     }
     
-    @IBAction func multiplication(_ sender: Any) {
+    @IBAction func multiplication(_ sender: UIButton) {
         let num1 = Double(num1TextField.text!)!
         let num2 = Double(num2TextField.text!)!
                
@@ -60,7 +59,6 @@ class ViewController: UIViewController, UITextFieldDelegate{
         num1TextField.resignFirstResponder()
         num2TextField.resignFirstResponder()
     }
-    
     
     @IBAction func division(_ sender: UIButton) {
         let num1 = Double(num1TextField.text!)!
@@ -74,8 +72,7 @@ class ViewController: UIViewController, UITextFieldDelegate{
         num2TextField.resignFirstResponder()
     }
     
-    
-    @IBAction func areaOfRec(_ sender: Any) {
+    @IBAction func areaOfRec(_ sender: UIButton) {
         let num1 = Double(num1TextField.text!)!
         let num2 = Double(num2TextField.text!)!
         
@@ -87,17 +84,15 @@ class ViewController: UIViewController, UITextFieldDelegate{
         num2TextField.resignFirstResponder()
     }
     
-    @IBAction func perimiterOfRec(_ sender: Any) {
-        //let num1 = Double(num1TextField.text!)!
-        //let num2 = Double(num2TextField.text!)!
-       // let num1 = Double(8)
-       // let num2 = Double(6)
-        //let ans = (num1 * 2) + (num2 * 2)
-        
-       // ansLabel.text = String(ans)
-        
-        //num1TextField.resignFirstResponder()
-        //num2TextField.resignFirstResponder()
+    @IBAction func perimiterOfRec(_ sender: UIButton) {
+        let num1 = Double(num1TextField.text!)!
+        let num2 = Double(num2TextField.text!)!
+        let ans = (num1 * 2) + (num2 * 2)
+         
+        ansLabel.text = String(ans)
+         
+        num1TextField.resignFirstResponder()
+        num2TextField.resignFirstResponder()
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
